@@ -84,4 +84,8 @@ public class Date {
       return false;
     }
   }
+
+  public boolean isLeapYear() {
+    return year % 4 == 0;
+  }
 }
